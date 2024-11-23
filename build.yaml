@@ -19,4 +19,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: dyad
+    shield: dyad_left
+  - board: nice_nano_v2
+    shield: dyad_right
