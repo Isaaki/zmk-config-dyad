@@ -8,20 +8,18 @@
 
         default_layer {
             bindings = <
-&mo 1       &none       &none       &none       &none       &none       &none                               &none       &none       &none       &none       &none       &none       &none
-&none       &none       &none       &none       &none       &none       &none                               &none       &none       &none       &none       &none       &none       &none
-&none       &none       &none       &none       &none       &none       &none                               &none       &none       &none       &none       &none       &none       &none
-&none       &none       &none       &none       &none       &none       &none                               &none       &none       &none       &none       &none       &none       &none
-&none       &none       &none       &none       &none       &none       &none                               &none       &none       &none       &none       &none       &none       &none
+&mo 1       &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &none                               &none       &none       &none       &none       &none       &none       &none
+&none       &kp Q       &kp W       &kp E       &kp R       &kp T       &none                               &none       &none       &none       &none       &none       &none       &none
+&none       &kp A       &kp S       &kp D       &kp F       &kp G       &none                               &none       &none       &none       &none       &none       &none       &none
+&none       &kp Z       &kp X       &kp C       &kp V       &kp B       &none                               &none       &none       &none       &none       &none       &none       &none
 &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none
             >;
         };
 
         bt_layer {
             bindings = <
-&none       &none       &none       &none       &none       &none       &none                               &bt BT_SEL 0&bt BT_SEL 1&bt BT_SEL 2&none       &none       &bt BT_CLR  &bt BT_CLR_ALL
+&none       &bt BT_SEL 0&bt BT_SEL 1&bt BT_SEL 2&none       &bt BT_CLR  &bt BT_CLR_ALL          &bt BT_SEL 0&bt BT_SEL 1&bt BT_SEL 2&none       &none       &bt BT_CLR  &bt BT_CLR_ALL
 &none       &none       &none       &none       &none       &none       &none                               &none       &none       &none       &none       &none       &none       &bootloader
-&none       &none       &none       &none       &none       &none       &none                               &none       &none       &none       &none       &none       &none       &none
 &none       &none       &none       &none       &none       &none       &none                               &none       &none       &none       &none       &none       &none       &none
 &none       &none       &none       &none       &none       &none       &none                               &none       &none       &none       &none       &none       &none       &none
 &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none
