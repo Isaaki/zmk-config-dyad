@@ -28,5 +28,9 @@ include:
     shield: dyad_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
+  # - board: seeeduino_xiao_ble
+  #   shield: dyad_dongle prospector_adapter
+
   - board: seeeduino_xiao_ble
-    shield: dyad_dongle prospector_adapter
+    shield: dyad_dongle dongle_screen
+    artifact-name: dyad-dongle-screen
