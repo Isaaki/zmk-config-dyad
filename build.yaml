@@ -39,4 +39,5 @@ include:
 
   - board: seeeduino_xiao_ble
     shield: dyad_dongle dongle_screen
+    snippet: studio-rpc-usb-uart
     artifact-name: dyad-dongle-screen
