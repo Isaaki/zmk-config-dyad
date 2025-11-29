@@ -145,5 +145,13 @@
 &kp LCTRL  &kp LALT  &kp LGUI  &none   &kp LCTRL  &kp SPACE  &kp ESC  &td_game_layer 0 7      &none  &mo 2  &none   &kp LCTRL  &none      &kp LGUI  &kp LALT   &kp LCTRL
             >;
         };
+
+        extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
+        };
     };
 };
