@@ -4,8 +4,6 @@
     dyad_physical_layout: dyad_physical_layout {
         compatible = "zmk,physical-layout";
         display-name = "Dyad";
-        transform = <&default_transform>;
-        kscan = <&kscan0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   62       0     0     0>
