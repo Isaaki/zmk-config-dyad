@@ -5,4 +5,10 @@
         zmk,kscan = &mock_kscan;
         // zmk,physical-layout = &dyad_physical_layout;
     };
+    mock_kscan: kscan_1 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
 };
