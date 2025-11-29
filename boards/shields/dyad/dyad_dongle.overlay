@@ -1,19 +1,18 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "dyad-layout.dtsi"
 
-
 / {
     chosen {
-        zmk,kscan = &mock_kscan;
+        zmk,kscan = &kscan0;
         zmk,physical-layout = &dyad_physical_layout;
     };
 
-    mock_kscan: mock_kscan_0 {
-        compatible = "zmk,kscan-mock";
-        columns = <0>;
-        rows = <0>;
-        events = <0>;
-    };
+    // mock_kscan: mock_kscan_0 {
+    //     compatible = "zmk,kscan-mock";
+    //     columns = <0>;
+    //     rows = <0>;
+    //     events = <0>;
+    // };
 
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
