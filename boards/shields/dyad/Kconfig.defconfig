@@ -40,14 +40,6 @@ config ZMK_SPLIT
 
 config ZMK_STUDIO
     default y
-config ZMK_STUDIO_RPC_USB
-    default y
-config USB_DEVICE_STACK
-    default y
-config USB_CDC_ACM
-    default y
-config UART_CONSOLE
-    default n
 
 # Set this to the number of peripherals your dongle will have.
 # For a unibody, this would be 1. If you have left and right halves, set it to 2, etc.
