@@ -2,7 +2,7 @@
 #include "dyad-layout.dtsi"
 
 &dyad_physical_layout {
-    transform = <&default_transform>
+    transform = <&default_transform>;
 };
 
 / {
