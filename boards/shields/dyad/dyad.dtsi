@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "dyad-layout.dtsi"
+#include "dyad_layout.dtsi"
 
 &dyad_physical_layout {
     transform = <&default_transform>;
